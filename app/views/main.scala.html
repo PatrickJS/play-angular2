@@ -1,0 +1,15 @@
+@(title: String, content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+        <script type='text/javascript' src='@routes.Assets.at("javascripts/ng2.js")'></script>
+    </head>
+    <body>
+        <pre>@content</pre>
+        <app>@content</app>
+    </body>
+    <script type='text/javascript' src='@routes.Assets.at("javascripts/main.js")'></script>
+</html>
